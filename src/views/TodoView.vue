@@ -22,7 +22,7 @@ const createTodo = (todo) => {
     <h1>Create Todo</h1>
     <TodosCreator @create-todo="createTodo"></TodosCreator>
     <ul v-for="todoList in todoLists">
-      <li>{{ todo }} + "hhhhhh"</li>
+      <li>{{ todo }}</li>
     </ul>
   </main>
 </template>
